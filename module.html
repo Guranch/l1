@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="https://cdn.rawgit.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css">
+  </head>
+<body>
+    <button class="modal-open" type="button" data-modal-open>open</button>
+    <div class="background-module" class="visually-hidden" data-modal>
+        <div class="module" >
+          <button class="module-close" data-modal-close>X</button>
+          <img class="exotic" src="./images/exotic.png" alt="exo">
+            <p class="module-title-form">Create An Account</p>
+            <form>
+                <div class="div-module">
+                <input class="input-module" placeholder="full name" type="text">
+                <svg class="svg-module"><use href="./images/people.svg#people"></use></svg>
+                </div>
+                <div class="div-module">
+                <input class="input-module" placeholder="email" type="email">
+                <svg class="svg-module2"><use href="./images/mail.svg#mail"></use></svg>
+                </div>
+                <div class="div-module-special">
+                <input class="input-module" placeholder="password" type="password">
+                <svg class="svg-module3"><use href="./images/block.svg#block"></use></svg>
+                </div>
+                <button class="btn-module">sign up</button>
+            </form>
+        <div class="sign-div">
+          <p class="sign-title">Or Sign Up With</p>
+        </div>
+        <button class="btn-fg">
+          <svg class="facebook"><use href="./images/facebook.svg#facebook"></use></svg>
+        </button>
+        <button class="btn-fg">
+          <svg class="google"><use href="./images/google.svg#google"></use></svg>
+        </button>
+        </div>
+    </div>
+    <script src="./js/modal.js"></script>
+</body>
+</html>
