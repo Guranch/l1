@@ -511,6 +511,9 @@ align-items: center;
   display: flex;
   gap: 24px;
 }
+.swiper{
+  width: 690px;
+}
 /*.list-it img{
   display: block;
   padding: 0 15px;
